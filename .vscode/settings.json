@@ -1,0 +1,21 @@
+{ 
+  "javascript.validate.enable": false,
+  "cSpell.words": [
+    "clsx",
+    "hookform",
+    "maskito",
+    "Maskito",
+    "supabase",
+    "Tenjin",
+    "unaccent",
+    "usecase",
+    "usecases"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize"
+  },
+}
