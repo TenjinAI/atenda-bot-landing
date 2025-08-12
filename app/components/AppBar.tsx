@@ -1,7 +1,6 @@
 "use client"
 
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 
 const AppBar = () => {
@@ -68,18 +67,12 @@ const AppBar = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Link
-            href="https://www.app.atenda.bot/login"
-            className="px-6 py-2 text-blue-600 font-medium border-2 border-blue-600 rounded-full hover:bg-blue-50 transition-colors"
+          <a
+            href="mailto:contato@atenda.bot?subject=Contato%20-%20Atenda.bot&body=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20solu%C3%A7%C3%A3o%20de%20atendimento%20B2B%20via%20API%20oficial%20do%20WhatsApp."
+            className="px-6 py-2 text-white font-medium bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
           >
-            Entrar
-          </Link>
-          <button
-            onClick={() => scrollToSection('contato')}
-            className="px-6 py-2 text-white font-medium bg-blue-600 rounded-full hover:bg-blue-700 transition-colors hidden md:block"
-          >
-            Comece Agora
-          </button>
+            Fale conosco
+          </a>
         </div>
       </nav>
     </header>
