@@ -68,7 +68,7 @@ const AppBar = () => {
 
         <div className="flex items-center space-x-4">
           <a
-            href="mailto:contato@atenda.bot?subject=Contato%20-%20Atenda.bot&body=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20solu%C3%A7%C3%A3o%20de%20atendimento%20B2B%20via%20API%20oficial%20do%20WhatsApp."
+            href="mailto:contato@atenda.bot?subject=Contato%20-%20Atenda.bot&body=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20solu%C3%A7%C3%A3o%20de%20atendimento%20via%20API%20oficial%20do%20WhatsApp."
             className="px-6 py-2 text-white font-medium bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
           >
             Fale conosco

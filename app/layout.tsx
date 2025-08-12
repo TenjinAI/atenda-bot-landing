@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Atenda.bot - Atendimento via API oficial do WhatsApp',
-  description: 'Solução profissional para atendimento ao cliente B2B no WhatsApp: automações, roteamento, SLAs e integrações com suas ferramentas.',
+  description: 'Solução profissional para atendimento ao cliente no WhatsApp: automações, roteamento, SLAs e integrações com suas ferramentas.',
 }
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ const HeroSection = () => {
           Centralize e personalize o atendimento no WhatsApp com automações, roteamento por equipes, SLAs e integrações com suas ferramentas de negócio.
         </p>
         <a
-          href="mailto:contato@atenda.bot?subject=Contato%20-%20Atenda.bot&body=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20a%20solu%C3%A7%C3%A3o%20de%20atendimento%20B2B%20via%20API%20oficial%20do%20WhatsApp."
+          href="mailto:contato@atenda.bot?subject=Contato%20-%20Atenda.bot&body=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20a%20solu%C3%A7%C3%A3o%20de%20atendimento%20via%20API%20oficial%20do%20WhatsApp."
           className="inline-block px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
         >
           Fale conosco

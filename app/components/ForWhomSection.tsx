@@ -9,7 +9,7 @@ const ForWhomSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
             <div className="text-green-500 text-2xl mb-3">✔</div>
-            <h3 className="text-xl font-semibold mb-2">Vendas B2B</h3>
+            <h3 className="text-xl font-semibold mb-2">Vendas</h3>
             <p className="text-gray-600">Gere leads, faça qualificação e conduza follow-up direto no WhatsApp com eficiência.</p>
           </div>
 

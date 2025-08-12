@@ -28,7 +28,7 @@ const WhyUseSection = () => {
             <div className="bg-blue-100 p-4 rounded-full mb-5">
               <Settings className="w-10 h-10 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Integrações e automações B2B</h3>
+            <h3 className="text-xl font-semibold mb-3">Integrações e automações</h3>
             <p className="text-gray-600">Conecte CRM/ERP via webhooks, dispare eventos, consolide dados e crie automações de ponta a ponta.</p>
           </div>
         </div>
