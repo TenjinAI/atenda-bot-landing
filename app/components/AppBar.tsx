@@ -2,19 +2,28 @@
 
 import React from 'react'
 import Image from 'next/image'
+import { usePathname, useRouter } from 'next/navigation'
 
 const AppBar = () => {
+  const pathname = usePathname()
+  const router = useRouter()
+
   const scrollToSection = (sectionId: string) => {
+    // Check if we're on the home page
+    if (pathname !== '/') {
+      // Navigate to home page with hash
+      router.push(`/#${sectionId}`)
+      return
+    }
+
+    // If we're on home page, scroll to section
     const element = document.getElementById(sectionId)
     if (element) {
       const offset = 80 // height of the fixed navbar
-      const bodyRect = document.body.getBoundingClientRect().top
-      const elementRect = element.getBoundingClientRect().top
-      const elementPosition = elementRect - bodyRect
-      const offsetPosition = elementPosition - offset
+      const top = element.getBoundingClientRect().top + window.scrollY - offset
 
       window.scrollTo({
-        top: offsetPosition,
+        top,
         behavior: 'smooth'
       })
     }
@@ -23,7 +32,7 @@ const AppBar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
       <nav className="container max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
           <div className="relative w-8 h-8">
             <Image
               src="/assets/small-logo-light.png"
@@ -37,7 +46,7 @@ const AppBar = () => {
             <span className="text-gray-800 text-xl font-normal tracking-tight">Atenda</span>
             <span className="text-blue-600 text-xl font-bold tracking-tight">.bot</span>
           </div>
-        </div>
+        </a>
 
         <div className="hidden md:flex items-center space-x-8">
           <button
