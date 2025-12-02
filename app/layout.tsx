@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Atenda.bot - Atendimento via API oficial do WhatsApp',
   description: 'Solução profissional para atendimento ao cliente no WhatsApp: automações, roteamento, SLAs e integrações com suas ferramentas.',
+  other: {
+    'fb:app_id': '1322981302107488',
+  },
   openGraph: {
     title: 'Atenda.bot - Atendimento via API oficial do WhatsApp',
     description: 'Solução profissional para atendimento ao cliente no WhatsApp: automações, roteamento, SLAs e integrações com suas ferramentas.',
