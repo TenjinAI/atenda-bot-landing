@@ -44,7 +44,6 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-        <Script src="https://cdn.iubenda.com/iubenda.js" strategy="afterInteractive" />
       </body>
     </html>
   )
